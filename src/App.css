@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+#app {
+  margin: 200px 0;
+}
+
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.app button {
+  margin: 50px 20px;
+  padding: 15px 30px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+}
+
+.app h1 {
+  font-size: 60px;
+}
